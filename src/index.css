@@ -1,0 +1,9 @@
+.fooz {
+  color: red;
+}
+
+.baz {
+  composes: fooz;
+  composes: blah from "common";
+  background-color: blue;
+}
